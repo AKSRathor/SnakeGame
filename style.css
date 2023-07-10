@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:url('img/bg.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+}
+#interface{
+    height: 90vh;
+    width: 90vh;
+    margin: 20px auto;
+    display: grid;
+    background: linear-gradient(#95f7ff, #6eff6e);
+    border: 2px solid ;
+    grid-template-rows: repeat(19, 1fr);
+    grid-template-columns: repeat(19, 1fr);
+    
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#snake_food{
+    height: 4vh;
+    width: 4vh;
+    background-color: rgb(255, 143, 68);
+    border-radius: 4vh;
+}
+#snake_face {
+    background: url(snake_face.png) no-repeat;
+    margin: 0px 0px;
+    position: absolute;
+    height: 26vh;
+    width: 20vh;
+    /* border: 2px solid; */
+    background-size: 9vh;
+}
